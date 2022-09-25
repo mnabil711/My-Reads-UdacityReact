@@ -15,7 +15,7 @@ const Book = ({ authors, title, image, shelf, onMove, book }) => {
       </div>
       <div className="book-title">{title}</div>
       <div className="book-authors">
-        {book.authors ? book.authors.join("-") : "NA"}
+        {book.authors ? book.authors.join("-") : "N/A"}
       </div>
     </div>
   );
